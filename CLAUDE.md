@@ -31,3 +31,31 @@ All memories for this project are stored in `memory/` within this workspace fold
 - Use `computer://` links when sharing files so they can be opened directly
 - Keep responses concise — avoid long preambles before getting to the work
 - Ask clarifying questions before starting multi-step tasks
+
+## Working Guidelines
+
+### Think Before Acting
+Don't assume. Don't hide confusion. Surface tradeoffs.
+
+Before starting any task:
+- State assumptions explicitly. If uncertain, ask.
+- If multiple valid approaches exist, present them — don't pick silently.
+- If a simpler approach exists, say so and push back when warranted.
+- If something is unclear, stop. Name what's confusing. Ask.
+
+### Goal-Driven Execution
+Define success criteria. Verify before declaring done.
+
+Transform requests into verifiable outcomes:
+- "Write the workflow doc" → "Draft it, review against architecture.md for accuracy, then deliver"
+- "Update the architecture" → "Make the change, confirm it's consistent with the rest of the doc"
+- "Research X" → "Find sources, summarize findings, flag confidence level"
+
+For multi-step tasks, state a brief plan before starting:
+```
+1. [Step] → verify: [check]
+2. [Step] → verify: [check]
+3. [Step] → verify: [check]
+```
+
+Clarifying questions come before work, not after mistakes.
